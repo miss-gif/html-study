@@ -4,12 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>입력 양식 작성하기</title>
+    <!-- <style>
+      body {
+        color: #000;
+        font-family: "Pretendard Variable";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    </style> -->
   </head>
   <body>
-    <form>
-      <fieldset>
+    <form class="form-wrap" id="login">
+      <fieldset style="display: block; background-color: aqua">
         <label>아이디: <input type="text" id="user_id" size="10" /></label>
-        <label>비밀번호: <input type="password" id="user_pw" size="10" /></label>
+        <label
+          >비밀번호: <input type="password" id="user_pw" size="10"
+        /></label>
         <input type="submit" value="로그인" />
       </fieldset>
     </form>
